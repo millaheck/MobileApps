@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".SkillsPage">
 
+
     <TextView
         android:id="@+id/textContentSkills2"
         android:layout_width="340dp"
@@ -17,7 +18,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="315dp" />
+        tools:layout_editor_absoluteY="315dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textContentSkills"
