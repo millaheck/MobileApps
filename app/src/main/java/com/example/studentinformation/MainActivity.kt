@@ -36,6 +36,51 @@ class MainActivity : AppCompatActivity() {
         btnExit.setOnClickListener {
             finish()
         }
-    }
+
+        //btnHome.setOnClickListener {
+            //Intent(this, MainActivity::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+
+        //btnHome2.setOnClickListener {
+            //Intent(this, MainActivity::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+
+        //btnHome3.setOnClickListener {
+            //Intent(this, MainActivity::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+
+        //btnNext.setOnClickListener {
+            //Intent(this, SkillsPage::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+
+        //btnNext2.setOnClickListener {
+            //Intent(this, AchievementsPage::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+
+        //btnPrevious.setOnClickListener {
+            //Intent(this, EducationPage::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+
+        //btnPrevious2.setOnClickListener {
+            //Intent(this, SkillsPage::class.java).also {
+                //startActivity(it)
+            //}
+        //}
+    //}
+//}
+
+}
 }
 
