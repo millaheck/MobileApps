@@ -6,6 +6,7 @@ import androidx.versionedparcelable.VersionedParcelize
 import com.google.gson.annotations.SerializedName
 import java.util.ArrayList
 
+
 @VersionedParcelize
 data class MovieResponse(
     @SerializedName(value = "results")

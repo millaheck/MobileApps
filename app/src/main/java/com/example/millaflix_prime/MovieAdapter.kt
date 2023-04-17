@@ -12,7 +12,7 @@ import com.example.millaflix_prime.models.Movie
 
 private const val IMAGE_BASE = "https://image.tmdb.org/t/p/w500/"
 
-class MovieAdapter(private var movies: List<Movie>, private val onItemClick: (Movie) -> Unit) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
+class MovieAdapter(private var movies: List<Movie>): RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     class MovieViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val moviePoster: ImageView = itemView.findViewById(R.id.movie_poster)
@@ -31,19 +31,14 @@ class MovieAdapter(private var movies: List<Movie>, private val onItemClick: (Mo
         return MovieViewHolder(view)
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
         val movie = movies[position]
         holder.bindMovie(movie)
-        holder.itemView.setOnClickListener {
-            onItemClick(movie)
     }
 
     //Data set size return
-    fun getItemCount(): Int {
+    override fun getItemCount(): Int {
         return movies.size
     }
 
@@ -64,4 +59,4 @@ class MovieAdapter(private var movies: List<Movie>, private val onItemClick: (Mo
             notifyDataSetChanged()
         }
     }
-}}
+}

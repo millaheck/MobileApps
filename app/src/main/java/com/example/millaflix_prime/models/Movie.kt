@@ -5,7 +5,6 @@ import android.os.Parcelable
 import androidx.versionedparcelable.VersionedParcelize
 import com.google.gson.annotations.SerializedName
 
-
 @VersionedParcelize
 data class Movie (
     @SerializedName(value = "id")

@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     //Method to make an HTTP request
-private fun String.makeHTTPRequest(){
+    private fun String.makeHTTPRequest(){
         val client = OkHttpClient()
         val request = Request.Builder()
             .url(this)
@@ -74,8 +74,8 @@ private fun String.makeHTTPRequest(){
                         val movies = movieResponse.results
                         callback(movies)
                     }
-                    }
                 }
-            })
-        }
+            }
+        })
     }
+}
