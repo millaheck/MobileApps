@@ -1,18 +1,18 @@
 INTRODUCTION
 
-This assignment consisted in the development of a Movie Booking App where students had to create a Movie Class, obtain and fill in data 
+  This assignment consisted in the development of a Movie Booking App where students had to create a Movie Class, obtain and fill in data 
 from at least four movies, generate a random number between 0 and 15 for each movie and assign to seats_remaining, start with an initial 
 default seats_selected value of 0 for all movies, build a Recycler View using the specified template, if any seats are selected, show 
 how many seats are selected and hide remaining seats.
 
 DEVELOPING THE MOVIE BOOKING APP
 
-	The development of this application generated many difficulties, since it is much more complex than what the students previously had to 
+  The development of this application generated many difficulties, since it is much more complex than what the students previously had to 
 develop in the classroom.
 However the attempt, the error, generates learning and should also be valued, to reach a very good result, the professional often goes through 
 many challenges until he succeeds. And this report is about that, it brings the difficulties and the results achieved.
 
-At first after completing the codes, there were many errors that prevented the file from running properly. So it was necessary to fix the errors 
+   At first after completing the codes, there were many errors that prevented the file from running properly. So it was necessary to fix the errors 
 one by one, a lot of time was spent on this. When the file had no more errors, it run properly, however the movie list was not showing. It took 
 a lot more time doing research to find out the reason and try to solve it.
 
