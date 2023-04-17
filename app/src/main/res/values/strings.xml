@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MiLLaFLiX_prime</string>
+    <string name="enjoy_great_movies_anytime_anywhere">Enjoy great movies. Anytime. Anywhere.</string>
+    <string name="millaflix_prime">MillaFlix prime</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="synopsis">Synopsis.</string>
+    <string name="main_image" />
+    <string name="data_provided_by_mbdb" />
+    <string name="tickets_hub" />
+    <string name="movie_poster" />
+    <string name="icon" />
+    <string name="running_time" />
+    <string name="filling_fast" />
+    <string name="starring" />
+    <string name="select_seats" />
+    <string name="movie_image" />
+</resources>
